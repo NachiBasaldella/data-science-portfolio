@@ -1,2 +1,9 @@
-# DataSciencePractice
-Embark on a data science learning adventure! As a Bachelor's in Data Science student, I'm curating hands-on exercises in Python, R, SQL, and other essential tools. Engage in interactive challenges and collaborative projects to enhance your skills. Join me in exploring the diverse landscape of data science! 📊💻🚀✨
+# 🧠 Data Science Portfolio
+
+Welcome to my **Data Science Portfolio**, where I showcase practical, end-to-end projects across multiple domains including **data analysis, visualization, machine learning, web scraping, APIs, SQL**, and **cybersecurity**.
+
+Each folder below represents a key focus area in my learning journey and professional development as a data scientist.
+
+---
+
+
