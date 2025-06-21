@@ -33,23 +33,6 @@ This project focuses on cleaning and preparing a real-world survey dataset — t
 
 ---
 
-## 📂 Folder Structure
-cleaning-adult-income/
-│
-├── data/
-│ ├── raw/ # Original, untouched CSV
-│ └── cleaned/ # Final cleaned dataset
-│
-├── notebooks/
-│ └── 01_data_cleaning.ipynb
-│
-├── outputs/
-│ └── cleaning_report.md # Optional: summary of steps and insights
-│
-└── README.md
-
----
-
 ## 📊 Key Cleaning Steps
 
 - Replaced missing values represented as `"?"` in object columns
