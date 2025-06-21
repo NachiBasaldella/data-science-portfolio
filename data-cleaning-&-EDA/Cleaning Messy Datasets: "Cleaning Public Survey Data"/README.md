@@ -56,13 +56,6 @@ The cleaned dataset is ready for further **EDA** and **machine learning modeling
 - This project does not include modeling — the focus is entirely on **data quality**.
 - The pipeline is reproducible and documented for clarity.
 
----
-
-## 📌 Next Steps
-
-- Perform EDA and visualize relationships between features  
-- Build classification models using the cleaned dataset  
-- Deploy findings in an interactive dashboard (optional)
 
 ---
 
