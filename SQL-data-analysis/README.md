@@ -1,28 +1,42 @@
-# 🧮 SQL & Data Analysis Projects
+📊 SQL & Data Analysis Projects
 
-This folder contains data analysis projects using **SQL** to query and manipulate structured datasets. These projects reflect real-world analytical thinking and business logic applied to relational databases.
+These projects focus on data analysis using SQL to query and manipulate relational databases. Each project reflects real-world business scenarios, applying analytical thinking and business logic to structured datasets.
 
-## 🛠 Tools & Technologies
-- SQL (PostgreSQL, MySQL, SQLite)
-- DB Browser / pgAdmin
-- Jupyter Notebooks with SQL integration
-- Excel / Power BI (for visualization in some cases)
+🛠️ Tools & Technologies
 
-## 🎯 Project Objectives
-- Write optimized queries to extract insights from relational data
-- Use aggregate functions, joins, subqueries, and window functions
-- Perform cohort, funnel, and retention analysis
-- Simulate business case studies with realistic scenarios
-- Prepare reports or visualizations based on query outputs
+SQL (PostgreSQL, MySQL, SQLite)
 
-## 📁 Project Examples
-- 🏥 Healthcare database analysis
-- 🛒 E-commerce revenue breakdown and funnel metrics
-- 🎓 Student performance dashboard via SQL
-- 📉 Sales & inventory trends using date functions
-- 🧪 Data cleaning with SQL operations
+DB Browser / pgAdmin
 
-These projects demonstrate practical SQL skills and business-oriented data analysis for reporting and decision-making.
+Jupyter Notebooks with SQL integration
 
----
-> Datasets used are either self-generated, simulated, or publicly available from sources like Kaggle and Mode Analytics.
+Excel / Power BI (for visualization in some cases)
+
+🎯 Project Objectives
+
+Write optimized SQL queries to extract actionable insights.
+
+Apply aggregate functions, joins, subqueries, and window functions.
+
+Conduct cohort, funnel, and retention analysis.
+
+Simulate business case studies with realistic datasets.
+
+Create reports and dashboards based on SQL query outputs.
+
+📂 Project Examples
+
+🔹 Healthcare Database Analysis
+Analyzed hospital records to identify patient metrics, common treatments, and bed occupancy trends.
+
+🔹 E-commerce Revenue Breakdown & Funnel Metrics
+Performed revenue breakdown and funnel analysis to detect bottlenecks in the sales process.
+
+🔹 Student Performance Dashboard via SQL
+Built a performance dashboard using academic data to measure pass rates, subject-level performance, and cohort comparisons.
+
+🔹 Sales & Inventory Trends Using Date Functions
+Leveraged SQL date functions to uncover seasonal sales patterns, inventory turnover, and demand forecasting.
+
+🔹 Data Cleaning with SQL Operations
+Implemented SQL techniques for handling missing values, removing duplicates, and standardizing variables.
