@@ -1,90 +1,19 @@
-Healthcare Database Analysis
+Healthcare Database Analysis — CMS Hospital General Information (SQL)
+🧭 Descripción del proyecto
 
-📌 Project Overview
+Este proyecto analiza un dataset de hospitales de EE. UU. (CMS Hospital General Information) para obtener insights operativos y de calidad: cobertura de emergencias, distribución por estado/propiedad/tipo, y patrones en el rating general (1–5).
+El pipeline completo se realiza en PostgreSQL, desde la ingesta y limpieza de un CSV hasta la modelización, creación de vistas, índices y consultas analíticas. Opcionalmente, los resultados se visualizan en Excel o Power BI y se documentan en un informe.
 
-This project analyzes a healthcare database containing patient records, hospital admissions, treatments, and resource usage.
-The goal is to extract insights that support decision-making in healthcare management, such as identifying common treatments, understanding patient demographics, and analyzing hospital occupancy trends.
+Fuente de datos: archivo Hospital_General_Information_CLEAN.csv (38 campos) — versión ya depurada en Excel y exportada a CSV (UTF-8, con cabecera).
 
-🛠️ Tools & Technologies
+🧰 Stack & herramientas
 
-PostgreSQL / MySQL / SQLite (SQL queries and database management)
+PostgreSQL 
 
-DB Browser / pgAdmin (database exploration)
+pgAdmin para ejecutar SQL
 
-Excel / Power BI (optional for visualization)
+Excel 
 
+Power BI 
 
-
-
-Title: CMS Hospital General Information — SQL Analytics
-
-Tech: PostgreSQL 17, pgAdmin, SQL (CTEs, CASE, regex), basic indexing
-
-Dataset
-
-Hospital registry from U.S. Centers for Medicare & Medicaid Services (CMS): facility metadata, ownership, emergency services, birthing-friendly flag, and star ratings.
-
-Project Goals
-
-Clean and standardize raw CSV into a relational model.
-
-Produce analysis-ready views.
-
-Derive KPIs and state/ownership/type insights for decision-making.
-
-Pipeline
-
-Ingest
-
-Saved Excel to CSV (UTF-8), restricted to 38 fields.
-
-Imported into cms.hospital_general_information_raw via \copy.
-
-Modeling
-
-Clean table: cms.hospitals (typed columns, booleans, numeric casts).
-
-Analysis view: cms.v_hospitals_clean (grouped ownership/type labels, normalized text).
-
-Cleaning highlights
-
-Trim/normalize text; state upper-cased; city title-case.
-
-ZIP normalized to 5 digits; phone formatted (###) ###-####.
-
-Booleans mapped from Yes/No variants.
-
-Ratings cast only when numeric (1–5).
-
-Performance
-
-Indexes on state, overall_rating, emergency_services.
-
-Key Queries
-
-National KPIs, hospitals by state, top states by average rating (n≥30), ratings by ownership/type, emergency coverage matrices, five-star showcase.
-(See /sql/analysis.sql for full list.)
-
-Results (sample — fill with your numbers)
-
-Hospitals: X
-
-Emergency services coverage: Y%
-
-Share with rating: Z%
-
-Avg rating (1–5): R
-
-Top-rated states (n≥30): ST1 (r1), ST2 (r2), ST3 (r3)
-
-Ownership with highest avg rating: Group G (rG)
-
-Type with highest avg rating: Type T (rT)
-
-Reproducibility
--- Ingest
-\copy cms.hospital_general_information_raw FROM '.../Hospital_General_Information_CLEAN.csv'
-WITH (FORMAT csv, HEADER true);
-
--- Load & clean (see /sql/setup.sql)
--- Creates cms.hospitals, formats ZIP/phone, builds view v_hospitals_clean
+DataGrip 
