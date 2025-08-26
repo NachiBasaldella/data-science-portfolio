@@ -1,19 +1,14 @@
-Healthcare Database Analysis — CMS Hospital General Information (SQL)
-🧭 Descripción del proyecto
+Healthcare Database Analysis — CMS Hospital General Information (SQL) 🧭 Project Description
 
-Este proyecto analiza un dataset de hospitales de EE. UU. (CMS Hospital General Information) para obtener insights operativos y de calidad: cobertura de emergencias, distribución por estado/propiedad/tipo, y patrones en el rating general (1–5).
-El pipeline completo se realiza en PostgreSQL, desde la ingesta y limpieza de un CSV hasta la modelización, creación de vistas, índices y consultas analíticas. Opcionalmente, los resultados se visualizan en Excel o Power BI y se documentan en un informe.
+This project analyzes a dataset of U.S. hospitals (CMS Hospital General Information) to extract operational and quality insights: emergency coverage, distribution by state/ownership/type, and patterns in the overall rating (1–5). The full pipeline is carried out in PostgreSQL, from CSV ingestion and cleaning to modeling, creation of views, indexes, and analytical queries. Optionally, the results can be visualized in Excel or Power BI and documented in a report.
 
-Fuente de datos: archivo Hospital_General_Information_CLEAN.csv (38 campos) — versión ya depurada en Excel y exportada a CSV (UTF-8, con cabecera).
+Data source: Hospital_General_Information_CLEAN.csv (38 fields) — a cleaned version prepared in Excel and exported to CSV (UTF-8, with header).
 
-🧰 Stack & herramientas
+🧰 Stack & Tools
 
-PostgreSQL 
+PostgreSQL
 
-pgAdmin para ejecutar SQL
+pgAdmin to run SQL
 
-Excel 
+Excel
 
-Power BI 
-
-DataGrip 
