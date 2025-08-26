@@ -28,3 +28,5 @@ This folder showcases projects focused on **data storytelling**, **dashboard des
 ---
 
 These projects aim to develop strong skills in **communicating data clearly** and designing visuals that support decision-making.
+
+<img width="798" height="469" alt="image" src="https://github.com/user-attachments/assets/f892fc7f-d838-4564-b59f-eba656fa716c" />
