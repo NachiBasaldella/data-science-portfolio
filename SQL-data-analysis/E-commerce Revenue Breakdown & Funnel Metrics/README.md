@@ -87,3 +87,5 @@ Measure and visualize conversion rates in the funnel.
 Identify purchase, cancellation, and satisfaction patterns.
 
 Develop reusable SQL queries for e-commerce analytics.
+<img width="763" height="783" alt="image" src="https://github.com/user-attachments/assets/bcabd6a9-e662-4274-ae58-224bef4aa0be" />
+
