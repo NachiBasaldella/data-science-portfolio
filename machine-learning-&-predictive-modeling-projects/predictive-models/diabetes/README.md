@@ -32,3 +32,6 @@ This project focuses on predicting the likelihood of diabetes in patients using 
 - Matplotlib, Seaborn  
 - Jupyter Notebooks  
 
+<img width="579" height="597" alt="image" src="https://github.com/user-attachments/assets/c0430bb3-1bf0-4133-bbe0-5e6683d8acd8" />
+
+
