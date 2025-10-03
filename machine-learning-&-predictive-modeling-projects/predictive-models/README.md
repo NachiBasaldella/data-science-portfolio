@@ -13,7 +13,7 @@ This project focuses on building and evaluating **predictive models** applied to
 
 ---
 
-## 📊 Example Use Cases
+## 📊 Use Cases
 - Health: predicting patient readmission risk or disease likelihood  
 - Finance: predicting loan default or credit scoring  
 - Education: predicting student performance or dropout risk  
@@ -27,17 +27,3 @@ This project focuses on building and evaluating **predictive models** applied to
 - XGBoost / LightGBM  
 - Matplotlib / Seaborn  
 
----
-
-## 📁 Folder Structure
-predictive-models/
-├─ notebooks/ # Jupyter notebooks (EDA, modeling, evaluation)
-│ ├─ 01_eda.ipynb
-│ ├─ 02_modeling.ipynb
-│ └─ 03_evaluation.ipynb
-├─ src/ # Python scripts and reusable functions
-├─ data/ # Raw and processed datasets (ignored in git)
-│ ├─ raw/
-│ └─ processed/
-├─ models/ # Trained model artifacts (ignored in git)
-└─ reports/ # Visualizations, metrics, results
