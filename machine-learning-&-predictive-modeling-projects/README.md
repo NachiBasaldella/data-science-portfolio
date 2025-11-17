@@ -1,36 +1,26 @@
-## Machine Learning Projects
+# 🤖 Machine Learning Projects
 
-A collection of end-to-end Machine Learning projects covering supervised and unsupervised techniques.
-Each project includes:
+This repository contains my end-to-end Machine Learning work focused on building, analyzing, and evaluating predictive models using Python.  
+Each project is structured following best practices in data science: EDA, preprocessing, modeling, evaluation, reporting, and reproducibility.
 
--Exploratory Data Analysis (EDA)
+Currently, the portfolio includes:
 
--Feature engineering
+---
 
--Modeling & evaluation
+## 🩺 **Diabetes Prediction (Classification)**  
+**Goal:** Predict the likelihood of diabetes using clinical and demographic patient information.
 
--Interpretability
+### 🔍 What the project includes
+- Exploratory Data Analysis (EDA)  
+- Data cleaning & preprocessing  
+- Model training (Logistic Regression, Random Forest)  
+- Model evaluation (Accuracy, Precision, Recall, F1, ROC-AUC)  
+- Feature importance analysis  
+- Automated report generation (metrics + visualizations)
 
--Clear reports & visual insights
+### 📊 Key Insights
+- ~35% of patients in the dataset are diagnosed with diabetes.  
+- Glucose, BMI, and Age are the strongest predictors.  
+- Best model reached **72% accuracy** and **64% recall** for diabetic patients.  
+- Results are medically meaningful and aligned with real-world risk factors.
 
-*Projects*
-Project	Description	Tech
-🩺 Diabetes Prediction
-	Predicting diabetes likelihood using health indicators.	Python, scikit-learn
-💰 Credit Risk 
-  Predicting loan default risk using credit data.	Python, ML
-🎓 Student Performance 
-  Predicting student dropout/performance.	Python, ML
-
-💡 Each project folder contains:
-notebooks/, src/, reports/, models/, and a complete README.md.
-
-## 📁 Folder Structure
-Each project follows the same organization:
-
-project-name/
-├─ notebooks/ # Jupyter notebooks (EDA, modeling, evaluation)
-├─ src/ # Python scripts and reusable functions
-├─ data/ # Raw and processed datasets 
-├─ models/ # Trained model artifacts 
-└─ reports/ # Visualizations, metrics, and results
