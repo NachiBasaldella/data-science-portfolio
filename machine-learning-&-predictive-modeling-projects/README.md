@@ -1,4 +1,4 @@
-Machine Learning Projects
+## Machine Learning Projects
 
 A collection of end-to-end Machine Learning projects covering supervised and unsupervised techniques.
 Each project includes:
