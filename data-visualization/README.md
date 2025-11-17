@@ -5,7 +5,6 @@ This folder showcases projects focused on **data storytelling**, **dashboard des
 ---
 
 ## 🛠 Tools Used
-- Tableau  
 - Power BI  
 - Excel 
 
@@ -22,6 +21,5 @@ This folder showcases projects focused on **data storytelling**, **dashboard des
 
 ## 📂 Projects Included
 - **E-commerce Revenue Breakdown & Funnel Metrics** → KPI dashboards focused on online sales performance and funnel analysis.  
-- **Healthcare Database Analysis** → Visual exploration of healthcare data to uncover trends and insights.  
-- **Sales & Inventory Trends Using Date Functions** → Time-series analysis of sales and stock data using advanced date functions.  
+- **Healthcare Database Analysis** → Visual exploration of healthcare data to uncover trends and insights.   
 
