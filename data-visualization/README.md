@@ -1,6 +1,6 @@
 # 📊 Data Visualization Projects
 
-This folder showcases projects focused on **data storytelling**, **dashboard design**, and **insightful visualizations** using tools like **Tableau** and **Power BI**.
+This folder showcases projects focused on **data storytelling**, **dashboard design**, and **insightful visualizations** using  **Power BI**.
 
 ---
 
